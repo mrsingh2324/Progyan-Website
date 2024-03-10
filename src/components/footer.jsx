@@ -75,7 +75,7 @@ const Footer = () => {
           <h4 className="font-bold text-2xl">Contact Us</h4>
           <div>
             <p>+91 7649866386</p>
-            <p>info@progyaneducations.live</p>
+            <p>info@progyaneducations.in</p>
           </div>
 
           <ul className="footer_social items-center flex justify-start">

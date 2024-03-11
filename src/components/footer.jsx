@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
 
         <div className="footer_3 text-start">
-          <h4 className="font-bold text-2xl">Help</h4>
+          <h4 className="font-bold text-2xl">Primacy</h4>
           <ul className="privacy text-start">
             <li>
               <a href="privacy">Privacy Policy</a>
@@ -73,23 +73,16 @@ const Footer = () => {
 
         <div className="footer_4 text-start">
           <h4 className="font-bold text-2xl">Contact Us</h4>
-          <ul className="privacy">
-            <li>
-              <a href="privacy">Privacy Policy</a>
-            </li>
-            <li>
-              <a href="terms">Terms and Conditions</a>
-            </li>
-            <li>
-              <a href="refund">Refund Policy</a>
-            </li>
-          </ul>
+          <div>
+            <p>+91 7649866386</p>
+            <p>info@progyaneducations.in</p>
+          </div>
 
           <ul className="footer_social items-center flex justify-start">
             <li>
               <a
                 href="https://youtube.com/progyaneducations"
-                className="text-gray-500 hover:text-gray-900 hover:text-white"
+                className="text-gray-500  hover:text-white"
               >
                 <FaYoutube size={20} />
               </a>
@@ -97,7 +90,7 @@ const Footer = () => {
             <li>
               <a
                 href="https://instagram.com/progyaneducations"
-                className="text-gray-500 hover:text-gray-900 hover:text-white"
+                className="text-gray-500  hover:text-white"
               >
                 <FaInstagram size={20} />
               </a>
@@ -105,7 +98,7 @@ const Footer = () => {
             <li>
               <a
                 href="https://twitter.com/progyaneducations"
-                className="text-gray-500 hover:text-gray-900 hover:text-white"
+                className="text-gray-500  hover:text-white"
               >
                 <FaTwitter size={20} />
               </a>
@@ -113,7 +106,7 @@ const Footer = () => {
             <li>
               <a
                 href="https://linkedin.com/in/progyaneducations"
-                className="text-gray-500 hover:text-gray-900 hover:text-white"
+                className="text-gray-500  hover:text-white"
               >
                 <FaLinkedin size={20} />
               </a>
@@ -126,7 +119,7 @@ const Footer = () => {
           Copyright &copy; PROGYAN EDUCATIONS ESTEEMED TO BE Pvt. Ltd.{" "}
         </small>
       </div>
-      <button className="fixed bottom-5 right-5" onClick={handleChat}>
+      <button className="fixed bottom-5 right-5 z-10" onClick={handleChat}>
         {chat ? "" : <Chatbtn />}
       </button>
       {chat && <Chat handleClose={handleChat} />}

@@ -18,10 +18,6 @@ import Navbar from "./components/Navbar";
 import RegistrationForm from "./page/registrationForm";
 import CourseDetails from "./page/courseDetails";
 import FeedbackForm from "./page/feedbackForm";
-
-import { motion } from "framer-motion";
-import { cn } from "./utils/cn";
-import BackgroundBeams from "./components/background-beams";
 function App() {
   return (
     <div className="App">

@@ -136,8 +136,8 @@ nav {
 
 .window-scroll {
 	/* height: 4rem; */
-	background: #082f49;
-	box-shadow: 0 8px 32px 0 rgba(48, 50, 119, 0.37);
+	background: rgba(50, 50, 250);
+	box-shadow: 0 8px 32px 0 rgba(33, 119, 195, 0.37);
 	backdrop-filter: blur(4.5px);
 	-webkit-backdrop-filter: blur(2.5px);
 }

@@ -20,9 +20,9 @@ function Home() {
       <Partners />
       <FAQs />
       <Testimonials />
-      <About />
+      {/* <About /> */}
       <Contact />
-     </div>
+    </div>
   );
 }
 

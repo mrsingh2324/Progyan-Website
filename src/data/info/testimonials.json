@@ -1,6 +1,51 @@
 [
-    { "name": "John Doe", "role": "Web Developer", "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { "name": "Jane Doe", "role": "Designer", "comment": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." }
-
-  ]
-  
+  {
+    "name": "Pragati Sharma",
+    "role": "Data Science Enthusiast",
+    "university": "Lovely Professional University",
+    "message": "I am amazed by the quality of courses offered by Progyan Educations. The content is well-structured, and I've gained valuable insights into my field. Highly recommended!",
+    "avatar": "avatar1.jpg"
+  },
+  {
+    "name": "Aman Verma",
+    "role": "Machine Learning Engineer",
+    "university": "Chandigarh University",
+    "message": "The 3-month course duration at Progyan Educations is perfect. It allows for in-depth learning and practical application. The fees are reasonable, making it a great investment.",
+    "avatar": "avatar2.jpg"
+  },
+  {
+    "name": "Priya Tiwari",
+    "role": "Web Development Enthusiast",
+    "university": "NIT",
+    "message": "I've attended many courses, but Progyan Educations stands out. The hands-on approach and 3-hour sessions provide a comprehensive learning experience. Worth every penny!",
+    "avatar": "avatar4.jpg"
+  },
+  {
+    "name": "Hashit Pandey",
+    "role": "Cybersecurity Analyst",
+    "university": "Lovely Professional University",
+    "message": "Progyan Educations exceeded my expectations. The course content is top-notch, and the instructors are experts in their field. I'm grateful for this learning opportunity.",
+    "avatar": "avatar3.jpg"
+  },
+  {
+    "name": "Shalini Yadav",
+    "role": "Full Stack Developer",
+    "university": "Delhi University",
+    "message": "As a working professional, the flexible schedule of Progyan Educations courses was a game-changer for me. I could balance my job and studies effectively. Kudos to the team!",
+    "avatar": "avatar5.jpg"
+  },
+  {
+    "name": "Diya Agrawal",
+    "role": "Data Analyst",
+    "university": "Galgotias University",
+    "message": "Progyan Educations not only provides theoretical knowledge but also focuses on practical skills. The emphasis on real-world applications sets it apart from other platforms.",
+    "avatar": "avatar6.jpg"
+  },
+  {
+    "name": "Preeti Verma",
+    "role": "UX/UI Designer",
+    "university": "GLA University",
+    "message": "I appreciate the community aspect of Progyan Educations. Interacting with fellow students and expert instructors created a supportive learning environment. Thumbs up!",
+    "avatar": "avatar7.jpg"
+  }
+]

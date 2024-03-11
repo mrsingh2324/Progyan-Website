@@ -18,7 +18,7 @@ const theme = {
 
 const Chat = ({ handleClose }) => {
   return (
-    <div className="fixed bottom-1 right-1">
+    <div className="fixed bottom-1 right-1 z-10">
       <ThemeProvider theme={theme}>
         <ChatBot
           steps={[

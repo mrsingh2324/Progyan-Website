@@ -40,7 +40,7 @@ const coursesList = [
 
 const FeesStructure = () => {
   return (
-    <div className="md:h-screen bg-[#2e3267] items-center flex flex-col ">
+    <div className="lg:h-screen bg-[#2e3267] items-center flex flex-col ">
       <div className="heading h-[10%] flex items-center justify-center p-20">
         <span className="max-text-2xl mb-4 text-3xl  md:text-4xl font-extrabold">
           Fee Structure

@@ -127,7 +127,7 @@ img {
 nav {
 	background: transparent;
 	width: 100vw;
-	height: 5rem;
+	height: 6rem;
 	position: fixed;
 	top: 0;
 	z-index: 11;
@@ -136,8 +136,8 @@ nav {
 
 .window-scroll {
 	/* height: 4rem; */
-	background: rgba(50, 50, 250);
-	box-shadow: 0 8px 32px 0 rgba(33, 119, 195, 0.37);
+	/* background-image: linear-gradient(to bottom, #1465e3, #145cd4, #1354c6, #114cb8, #0e44aa, #0e3d9e, #0e3592, #0c2e86, #0b2579, #0a1c6d, #071360, #040a54);	box-shadow: 0 8px 32px 0 rgba(33, 119, 195, 0.37); */
+	background: #000ba8;
 	backdrop-filter: blur(4.5px);
 	-webkit-backdrop-filter: blur(2.5px);
 }
@@ -458,6 +458,7 @@ nav {
 	left: 50%;
 	top: -1.5rem;
 	transform: rotate(45deg);
+	z-index: -1;
 }
 
 /* Get In Touch */

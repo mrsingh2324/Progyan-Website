@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
 
         <div className="footer_3 text-start">
-          <h4 className="font-bold text-2xl">Primacy</h4>
+          <h4 className="font-bold text-2xl">Privacy</h4>
           <ul className="privacy text-start">
             <li>
               <a href="privacy">Privacy Policy</a>

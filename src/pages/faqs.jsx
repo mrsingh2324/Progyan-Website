@@ -27,7 +27,7 @@ const FAQs = () => {
             </div>
             <div className="question_answer">
               <h4 onClick={() => toggleAccordion(index)}>{faq.question}</h4>
-              <p>{faq.answer}</p>
+              <p className="text-justify">{faq.answer}</p>
             </div>
           </article>
         ))}

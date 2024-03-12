@@ -13,14 +13,14 @@ const Courses = () => {
   return (
     <section className="p-3 md:p-auto mb-10 ">
       <div className="mb-4 p-4">
-        <span className="mb-4 bg- p-10 text-xl md:text-4xl font-extrabold">
+      <span className="max-text-2xl mb-4 text-3xl md:text-4xl font-extrabold text-white">
           Our Best Courses
         </span>
       </div>
 
       <div className="avcards">
         {coursesData.slice(0, visibleCourses).map((course, index) => (
-          <div key={index} className="avcard avshadow">
+          <div key={index} className="avcard avshadow hover:bg-[#424889]">
             <img
               src={require(`../data/images/Courses/${course.image}`)}
               alt={course.title}

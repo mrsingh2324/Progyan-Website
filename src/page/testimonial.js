@@ -10,7 +10,7 @@ import "swiper/css/scrollbar";
 
 const Testimonials = () => {
   return (
-    <section className="container testimonial_container p-0">
+    <section className="container testimonial_container p-0 text-justify">
       <div className="heading h-[10%] flex items-center justify-center p-8">
         <span className="max-w-2xl mb-4 text-xl md:text-4xl font-extrabold">
           What our Student Says
@@ -36,7 +36,7 @@ const Testimonials = () => {
                 {testimonial.role} <br /> ({testimonial.university})
               </small>
             </div>
-            <div className="testimonial_body bg-black ml-4">
+            <div className="testimonial_body bg-black mx-2">
               <p>{testimonial.message}</p>
             </div>
           </SwiperSlide>

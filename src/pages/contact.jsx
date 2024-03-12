@@ -20,9 +20,9 @@ const Contact = () => {
         </div>
         <div className="flex items-stretch justify-center">
           <div className="grid md:grid-cols-2">
-            <div className="h-full pr-6">
-              <ul className="mb-6 text-start p-10 md:mb-0">
-                <p className="mt-0 mb-12 ml-4 text-lg  text-slate-400">
+            <div className="h-full md:pr-6 p-0">
+              <ul className="mb-6 text-start md:p-10 md:mb-0">
+                <p className="mt-0 text-justify mb-12 ml-4 text-lg  text-slate-400">
                   Feel free to reach out to us for any inquiries or if you have
                   any questions. Our team is here to assist you.
                 </p>
@@ -62,7 +62,7 @@ const Contact = () => {
               </ul>
             </div>
             <div
-              className="card h-fit max-w-6xl p-5 md:px-12  md:pt-8 login-box"
+              className="card rounded rounded-xl shadow-lg bg-gray-600 bg-opacity-50 backdrop-filter backdrop-blur-lg h-fit max-w-6xl p-5 md:px-12 md:pt-8 login-box"
               id="form"
             >
               <h2 className="mb-4 text-2xl font-bold">

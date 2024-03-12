@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
-import logo from "../data/images/logo.png";
+import logo from "../data/images/LOGO6.png";
+import {motion} from 'framer-motion'
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -24,20 +25,18 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="p-2">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+    <nav className=" ">
+      <div className="max-w-screen-xl h-full flex flex-wrap items-center justify-between mx-auto">
         <Link
           to="/"
-          className="flex items-center text-start gap-0 line-h-0 p-1 "
+          className="items-center text-start gap-0 line-h-0 p-0  "
         >
           <img
             src={logo}
             alt="Logo"
-            className="w-[60px] flex text-white transition-all duration-300"
+            className="w-[250px] h-[80%] transition-all duration-300"
           />
-          <span className="text-lg font-bold">
-            Progyan <br /> Educations
-          </span>
+         
         </Link>
         <button
           type="button"

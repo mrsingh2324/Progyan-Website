@@ -9,11 +9,13 @@ import Hero from "./page/Hero";
 import Partners from "./pages/partners";
 import FeeStructure from "./page/feeStructure";
 import WhyUs from "./page/whyUs";
+import Scroll from "./components/scroll";
 
 function Home() {
   return (
     <div>
       <Hero />
+      <Scroll/>
       {/* <WhyUs /> */}
       <Course />
       <FeeStructure />

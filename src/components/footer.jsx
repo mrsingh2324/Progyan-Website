@@ -23,7 +23,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container footer_container">
         <div className="mb-0 md:mb-0 h-full flex flex-col justify-center p-0">
-          <a href="/" className="flex items-center w-200px h-full">
+          <Link href="/" className="flex items-center w-200px h-full">
             <img
               src={logo}
               className="md:h-32 md:w-32 h-12 w-12 flex"
@@ -33,7 +33,7 @@ const Footer = () => {
               {" "}
               Progyan <br /> Educations{" "}
             </span>
-          </a>
+          </Link>
           {/* <p className="text-white bg-black text-inline mt-0 w-[220px]">Education for the Modern Era. </p> */}
         </div>
         <hr className="border md:hidden bg-blue-950 h-1" />
@@ -42,16 +42,16 @@ const Footer = () => {
           <h4 className="font-bold text-2xl">Resources</h4>
           <ul className="text-start permalinks">
             <li>
-              <a href="/">Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <a href="/about">About</a>
+              <Link href="/about">About</Link>
             </li>
             <li>
-              <a href="/courses">Courses</a>
+              <Link href="/courses">Courses</Link>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </div>
@@ -60,13 +60,13 @@ const Footer = () => {
           <h4 className="font-bold text-2xl">Privacy</h4>
           <ul className="privacy text-start">
             <li>
-              <a href="privacy">Privacy Policy</a>
+              <Link href="privacy">Privacy Policy</Link>
             </li>
             <li>
-              <a href="terms">Terms and Conditions</a>
+              <Link href="terms">Terms and Conditions</Link>
             </li>
             <li>
-              <a href="refund">Refund Policy</a>
+              <Link href="refund">Refund Policy</Link>
             </li>
           </ul>
         </div>
@@ -80,36 +80,36 @@ const Footer = () => {
 
           <ul className="footer_social items-center flex justify-start">
             <li>
-              <a
+              <Link
                 href="https://youtube.com/progyaneducations"
                 className="text-gray-500  hover:text-white"
               >
                 <FaYoutube size={20} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="https://instagram.com/progyaneducations"
                 className="text-gray-500  hover:text-white"
               >
                 <FaInstagram size={20} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="https://twitter.com/progyaneducations"
                 className="text-gray-500  hover:text-white"
               >
                 <FaTwitter size={20} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="https://linkedin.com/in/progyaneducations"
                 className="text-gray-500  hover:text-white"
               >
                 <FaLinkedin size={20} />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

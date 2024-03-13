@@ -16,6 +16,7 @@ import Navbar from "./components/Navbar";
 import RegistrationForm from "./page/registrationForm";
 import CourseDetails from "./page/courseDetails";
 import FeedbackForm from "./page/feedbackForm";
+import Login from "./page/login";
 function App() {
   return (
     <div className="App">
@@ -30,10 +31,11 @@ function App() {
         <Route path="/terms" element={<TermsAndConditions />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/refund" element={<RefundPolicy />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/register" element={<RegistrationForm />} />
         <Route path="/courseDetails" element={<CourseDetails />} />
         <Route path="/feedbackForm" element={<FeedbackForm />} />
-        <Route path="*" element={<Home />} />
+        {/* <Route path="*" element={<Home />} /> */}
       </Routes>
       <Footer />
     </div>

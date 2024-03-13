@@ -11,8 +11,8 @@ import '../styles/style.css';
 
 const About = () => {
   return (
-    <div className="container my-30 py-10 bg-theme-neutral-600 p-10 w-full mt-4">
-      <p className='text-4xl font-bold p-5 my-10'>About Progyan Educations Team </p>
+    <div className=" py-10 bg-theme-neutral-600 p-10 w-full">
+      <p className='text-4xl font-bold p-5 mt-16'>About Progyan Educations Team </p>
       <section className=" rounded  rounded-xl overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:bg-gray-950 lg:pb-[90px] bg-[--color-bg] bg-dark">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">

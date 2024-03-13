@@ -81,7 +81,7 @@ const Contact = () => {
                         id="name"
                         autoComplete="given-name"
                         placeholder="Your name"
-                        className="mb-2  w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md text-gray-300 sm:mb-0 input"
+                        className="mb-2  w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md text-gray-300 sm:mb-0 "
                         name="name"
                       />
                     </div>
@@ -95,7 +95,7 @@ const Contact = () => {
                         id="email"
                         autoComplete="email"
                         placeholder="Your email address"
-                        className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0 input"
+                        className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4  dark:text-gray-300 sm:mb-0 "
                         name="email"
                       />
                     </div>
@@ -111,7 +111,7 @@ const Contact = () => {
                       cols="30"
                       rows="5"
                       placeholder="Write your message..."
-                      className=" w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0 input"
+                      className=" w-full rounded-md border border-gray-400 py-2 pl-2 pr-4  dark:text-gray-300 sm:mb-0 input"
                     ></textarea>
                   </div>
                 </div>

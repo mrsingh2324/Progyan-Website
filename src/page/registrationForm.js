@@ -77,13 +77,12 @@ const registrationForm = () => {
 
             />
           </div>
-          <div className='flex justify-between w-[70%]'>
-            <Link to={'/login'}>
-              Login
+          <div className='flex self-center justify-between w-[70%]'>
+          <Link to='/login'  className='text-blue-700 font-semibold  hover:underline cursor-pointer py-4 ' > Already registered ?
             </Link>
-            <button className='self-right bg-gray-950 rounded rounded-full text-white font-bold text-lg py-4 px-8 shadow'>
+            <Link  className='self-right bg-gray-950 rounded rounded-full text-white font-bold text-lg py-4 px-8 shadow'>
               Register
-            </button>
+            </Link>
           </div>
         </div>
       </div>

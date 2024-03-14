@@ -17,6 +17,7 @@ import RegistrationForm from "./page/registrationForm";
 import CourseDetails from "./page/courseDetails";
 import FeedbackForm from "./page/feedbackForm";
 import Login from "./page/login";
+import WhyUs from "./page/whyUs";
 function App() {
   return (
     <div className="App">
@@ -35,6 +36,7 @@ function App() {
         <Route path="/register" element={<RegistrationForm />} />
         <Route path="/courseDetails" element={<CourseDetails />} />
         <Route path="/feedbackForm" element={<FeedbackForm />} />
+        <Route path="/whyus" element={<WhyUs />} />
         {/* <Route path="*" element={<Home />} /> */}
       </Routes>
       <Footer />

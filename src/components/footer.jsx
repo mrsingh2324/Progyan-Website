@@ -23,7 +23,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container footer_container">
         <div className="mb-0 md:mb-0 h-full flex flex-col justify-center p-0">
-          <Link href="/" className="flex items-center w-200px h-full">
+          <Link to="/" className="flex items-center w-200px h-full">
             <img
               src={logo}
               className="md:h-32 md:w-32 h-12 w-12 flex"
@@ -42,16 +42,16 @@ const Footer = () => {
           <h4 className="font-bold text-2xl">Resources</h4>
           <ul className="text-start permalinks">
             <li>
-              <Link href="/">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <Link href="/about">About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <Link href="/courses">Courses</Link>
+              <Link to="/courses">Courses</Link>
             </li>
             <li>
-              <Link href="/contact">Contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
@@ -60,13 +60,13 @@ const Footer = () => {
           <h4 className="font-bold text-2xl">Privacy</h4>
           <ul className="privacy text-start">
             <li>
-              <Link href="privacy">Privacy Policy</Link>
+              <Link to="privacy">Privacy Policy</Link>
             </li>
             <li>
-              <Link href="terms">Terms and Conditions</Link>
+              <Link to="terms">Terms and Conditions</Link>
             </li>
             <li>
-              <Link href="refund">Refund Policy</Link>
+              <Link to="refund">Refund Policy</Link>
             </li>
           </ul>
         </div>
@@ -81,7 +81,7 @@ const Footer = () => {
           <ul className="footer_social items-center flex justify-start">
             <li>
               <Link
-                href="https://youtube.com/progyaneducations"
+                to="https://youtube.com/progyaneducations"
                 className="text-gray-500  hover:text-white"
               >
                 <FaYoutube size={20} />
@@ -89,7 +89,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="https://instagram.com/progyaneducations"
+                to="https://instagram.com/progyaneducations"
                 className="text-gray-500  hover:text-white"
               >
                 <FaInstagram size={20} />
@@ -97,7 +97,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="https://twitter.com/progyaneducations"
+                to="https://twitter.com/progyaneducations"
                 className="text-gray-500  hover:text-white"
               >
                 <FaTwitter size={20} />
@@ -105,7 +105,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="https://linkedin.com/in/progyaneducations"
+                to="https://linkedin.com/in/progyaneducations"
                 className="text-gray-500  hover:text-white"
               >
                 <FaLinkedin size={20} />
